@@ -1,0 +1,19 @@
+Analysis
+
+observation 1: looks like self modifying code.
+name has to be greater than 2
+
+hmm wish there was more, would have documented but was so "into" the crackme
+that i just didn't bother, just used pen and paper
+
+anyways i'll just provide a brief explanation.
+smc, code gets decrypted based on some bit test operation, for keygen all
+i did was, write on paper, code for 1st decryption loop when cf = 0 and when cf = 1
+and the same for 2nd & 3rd decryption routine. In keygen I have a routine that builds
+execution flow [quite nice i think so :P] based on bit-test operations.
+Must say that i do dislike reversing recursive routines but hey i did it.
+Thanks Vallani for the KeygenMe. I hope Keygen works as expected. Sorry for no source comments,
+the source code is rather hackish? if i have time i might clean it up. You may notice that it
+resembles the actual keygenme code, i just couldn't be bothered to re-implement the recursive
+routine, tho maybe i might go back and see what can be done about it. After all those Ctrl+F2
+i can say that i'm quite intimiate with execution flow. Anyways Thanks for KeygenMe.

@@ -1,0 +1,15 @@
+README
+------
+KeygenMe Link:	... well the site is down (crackmes.de/users/vallani(i reckon))
+
+Files of note:
+analysis.txt 	- Not much here but hopefully a little insight into what 
+				  is going on within the source file
+src/keygen.asm 	- Keygen source file, written in fasm. 
+				  http://flatassembler.net/
+
+Build:
+	- Simple as loading it up in fasmw and hitting compile although you might 
+	  want to set the %fasminc% environment variable to the fasm include dir
+	  
+p.s who's kilobyte?
